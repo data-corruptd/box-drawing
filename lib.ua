@@ -1,4 +1,4 @@
-Call ← [
+Chars ← [
   [
     [" ╵╹?" "╴┘┚╜" "╸┙┛?" "?╛?╝"]
     ["╷│╿?" "┐┤┦?" "┑┥┩?" "╖╡??"]
@@ -24,12 +24,13 @@ Call ← [
     ["╔??╠" "????" "????" "╦??╬"]
   ]
 ]
+Call ← Chars
 RoundedMap       ↚ map "┌┐└┘" "╭╮╰╯"
 TripleDashMap    ↚ map "─━│┃" "┄┅┆┇"
 QuadrupleDashMap ↚ map "─━│┃" "┈┉┊┋"
 DoubleDashMap    ↚ map "─━│┃" "╌╍╎╏"
-Rounded          ← ⍜♭≡⌟⍣get∘ Call RoundedMap
-TripleDash       ← ⍜♭≡⌟⍣get∘ Call TripleDashMap
-QuadrupleDash    ← ⍜♭≡⌟⍣get∘ Call QuadrupleDashMap
-DoubleDash       ← ⍜♭≡⌟⍣get∘ Call DoubleDashMap
+Rounded          ← ⍜♭≡⌟⍣get∘ Chars RoundedMap
+TripleDash       ← ⍜♭≡⌟⍣get∘ Chars TripleDashMap
+QuadrupleDash    ← ⍜♭≡⌟⍣get∘ Chars QuadrupleDashMap
+DoubleDash       ← ⍜♭≡⌟⍣get∘ Chars DoubleDashMap
 Diagonal = "╱╲╳"
