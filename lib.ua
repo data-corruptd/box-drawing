@@ -28,8 +28,8 @@ RoundedMap       ↚ map "┌┐└┘" "╭╮╰╯"
 TripleDashMap    ↚ map "─━│┃" "┄┅┆┇"
 QuadrupleDashMap ↚ map "─━│┃" "┈┉┊┋"
 DoubleDashMap    ↚ map "─━│┃" "╌╍╎╏"
-Rounded          ← ⍜♭≡⌟⍣get∘ BoxDrawing RoundedMap
-TripleDash       ← ⍜♭≡⌟⍣get∘ BoxDrawing TripleDashMap
-QuadrupleDash    ← ⍜♭≡⌟⍣get∘ BoxDrawing QuadrupleDashMap
-DoubleDash       ← ⍜♭≡⌟⍣get∘ BoxDrawing DoubleDashMap
+Rounded          ← ⍜♭≡⌟⍣get∘ Call RoundedMap
+TripleDash       ← ⍜♭≡⌟⍣get∘ Call TripleDashMap
+QuadrupleDash    ← ⍜♭≡⌟⍣get∘ Call QuadrupleDashMap
+DoubleDash       ← ⍜♭≡⌟⍣get∘ Call DoubleDashMap
 Diagonal = "╱╲╳"
